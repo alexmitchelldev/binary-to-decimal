@@ -36,7 +36,7 @@ const convertBinaryToDecimal = () => {
 
 const displayResult = (number, decimal, error) => {
     resultText.innerHTML = error ? error : `The decimal conversion of the binary number <strong>${number}</strong> is: ${decimal}`;
-    textToFade.classList.add("result-fade-in");
+    textToFade.classList.add("fade-in");
     return;
 }
 
